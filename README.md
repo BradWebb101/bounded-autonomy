@@ -43,8 +43,6 @@ Not in the system prompt. Optional on stage with `--extra`.
 | `user_prompt_exec` | Python parses those lines and runs them | Model only formats. Policy is already decided |
 | `direct_tool` | `agent.tool.evaluate_item(...)` from code | `tokens ≈ 0`. Same `@tool`, no routing |
 
-job-03 through `direct_tool` is always `expected_total_eur: 25.0`, `decision: reject`.
-
 ## Execute
 
 Needs Node 20+, Python 3.12+, Docker with buildx (ARM64), CDK v2, credentials, and Bedrock access for Nova Lite in **eu-west-1**.
