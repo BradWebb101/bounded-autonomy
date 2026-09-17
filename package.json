@@ -1,0 +1,28 @@
+{
+  "name": "bounded-autonomy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Single AgentCore runtime comparing raw-batch, sequential for-loop, and parallel Strands subagents.",
+  "bin": {
+    "bounded-autonomy": "dist/bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy --force",
+    "bench": "python3 scripts/bench.py"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "aws-cdk": "^2.1029.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.268.0",
+    "constructs": "^10.4.2"
+  }
+}

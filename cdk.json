@@ -1,0 +1,10 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/app.ts",
+  "watch": {
+    "include": ["bin/**", "lib/**", "agent/**"],
+    "exclude": ["node_modules", "cdk.out", "dist", "agent/.venv"]
+  },
+  "context": {
+    "modelId": "eu.amazon.nova-lite-v1:0"
+  }
+}
