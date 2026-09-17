@@ -2,9 +2,8 @@
 
 Talk material for [AWS Community Day NL 2026](https://awscommunityday.nl/2026/) — **23 Sep 2026**, Kinepolis Jaarbeurs Utrecht.
 
-[![ACD409 — Bounded Autonomy: Designing Agents that know when NOT to decide](public/speaking-excert.png)](https://awscommunityday.nl/2026/sessions/acd409/)
+[![ACD409 — Bounded Autonomy: Designing Agents that know when NOT to decide](public/speaking-excerpt.png)](https://awscommunityday.nl/2026/sessions/acd409/)
 
-**[ACD409](https://awscommunityday.nl/2026/sessions/acd409/)** · Tech Stage · 19:20 · Bradley Webb
 
 Agent decisions aren’t binary, but a distribution of possibilities. Long gone are the days of writing “ALWAYS INVOKE” in the system prompt as the only way to influence an agent’s decisions. This repo is the live demo for patterns that limit those decisions deterministically — AgentCore, Bedrock, and Strands.
 
